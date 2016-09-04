@@ -1,0 +1,13 @@
+//Items
+item.iridium.name=Iridium
+item.resin.name=Resin
+item.carbon.name=Carbon
+item.yellowcake.name=Yellow Cake
+//Blocks
+tile.iridium_ore.name=Iridium Ore
+tile.barium_ore.name=Barium Ore
+tile.normalmf.name=Normal Machine Frame
+tile.conreactor.name=Condensor
+//Creative Tabs
+itemGroup.netab=Nuclear Electricity
+//Containers

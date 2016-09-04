@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "nuclearelectricity:blocks/conreactor",
+        "down": "nuclearelectricity:blocks/normalmf",
+        "up": "nuclearelectricity:blocks/normalmf",
+        "north": "nuclearelectricity:blocks/conreactor",
+        "east": "nuclearelectricity:blocks/normalmf",
+        "south": "nuclearelectricity:blocks/normalmf",
+        "west": "nuclearelectricity:blocks/normalmf"
+    }
+}

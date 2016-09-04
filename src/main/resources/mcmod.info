@@ -1,0 +1,16 @@
+[
+{
+  "modid": "nuclearelectricity",
+  "name": "Nuclear Electricity",
+  "description": "Nuclear Reactors Are Great. But watch out they might blow up :)",
+  "version": "0.1-Alpha",
+  "mcversion": "1.10.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["NoVa, Phenolphtaleine"],
+  "credits": "NoVa For textures and Phenolphtaleine For Coding",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
