@@ -14,10 +14,12 @@ public class NEWorldGen implements IWorldGenerator{
 	
 	private WorldGenerator iridium_ore;
 	private WorldGenerator barium_ore;
+	private WorldGenerator uranium_ore;
 	
 	public NEWorldGen(){
 		this.iridium_ore = new WorldGenMinable(NEBlocks.iridium_ore.getDefaultState(), 8);
 		this.barium_ore = new WorldGenMinable(NEBlocks.barium_ore.getDefaultState(), 8);
+		this.uranium_ore = new WorldGenMinable(NEBlocks.uranium_ore.getDefaultState(), 8);
 
 	}
 	
@@ -39,8 +41,9 @@ public class NEWorldGen implements IWorldGenerator{
 			IChunkProvider chunkProvider) {
 		switch (world.provider.getDimension()){
 		case 0:
-			this.runGenerator(this.iridium_ore, world, random, chunkX, chunkZ, 30, 12, 40);
-			this.runGenerator(this.barium_ore, world, random, chunkX, chunkZ, 50, 12, 40);
+			this.runGenerator(this.iridium_ore, world, random, chunkX, chunkZ, 10, 12, 60);
+			this.runGenerator(this.barium_ore, world, random, chunkX, chunkZ, 5, 12, 60);
+			this.runGenerator(this.uranium_ore, world, random, chunkX, chunkZ, 1, 0, 20);
 			break;
 		case -1:
 			

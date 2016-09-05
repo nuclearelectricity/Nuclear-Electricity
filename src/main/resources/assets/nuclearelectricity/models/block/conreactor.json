@@ -1,12 +1,12 @@
 {
     "parent": "block/cube",
     "textures": {
-        "particle": "nuclearelectricity:blocks/conreactor",
-        "down": "nuclearelectricity:blocks/normalmf",
-        "up": "nuclearelectricity:blocks/normalmf",
-        "north": "nuclearelectricity:blocks/conreactor",
-        "east": "nuclearelectricity:blocks/normalmf",
-        "south": "nuclearelectricity:blocks/normalmf",
-        "west": "nuclearelectricity:blocks/normalmf"
+        "particle": "nuclearelectricity:blocks/conreactor_front",
+        "down": "nuclearelectricity:blocks/conreactor_side",
+        "up": "nuclearelectricity:blocks/conreactor_side",
+        "north": "nuclearelectricity:blocks/conreactor_front",
+        "east": "nuclearelectricity:blocks/conreactor_side",
+        "south": "nuclearelectricity:blocks/conreactor_side",
+        "west": "nuclearelectricity:blocks/conreactor_side"
     }
 }
