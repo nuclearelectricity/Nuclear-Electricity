@@ -27,6 +27,7 @@ public class MainNE {
 		NEBlocks.init();
 		GameRegistry.registerWorldGenerator(new NEWorldGen(), 0);
 		CraftingManager.register();
+		proxy.registerGuiHander();
 		proxy.registerRenders();
 		
 		

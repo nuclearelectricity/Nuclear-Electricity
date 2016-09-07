@@ -1,5 +1,7 @@
 package com.team.ne.blocks;
 
+import com.team.ne.client.GUIHandler;
+import com.team.ne.client.MainNE;
 import com.team.ne.init.NETabs;
 import com.team.ne.tileentity.TileEntityConReactor;
 
@@ -15,6 +17,8 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumBlockRenderType;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
@@ -33,6 +37,15 @@ public class conreactor extends BlockContainer {
 	    this.setHardness(5F);
 		this.setResistance(5F);
 		this.setHarvestLevel("pickaxe", 2);
+	}
+	
+	@Override
+	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn,
+			EnumHand hand, ItemStack heldItem, EnumFacing side, float hitX, float hitY, float hitZ) {
+		if(!worldIn.isRemote){
+			playerIn.openGui(MainNE.class, GUIHandler.conreactor, worldIn, pos.getX(), pos.getY(), pos.getZ());
+		}
+		return true;
 	}
 	
 	@Override

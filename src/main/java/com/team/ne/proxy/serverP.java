@@ -6,4 +6,9 @@ public class serverP {
 		
 	}
 
+	public void registerGuiHander() {
+		
+	}
+
+
 }

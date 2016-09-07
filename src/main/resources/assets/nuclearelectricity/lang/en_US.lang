@@ -3,6 +3,29 @@ item.iridium.name=Iridium
 item.resin.name=Resin
 item.carbon.name=Carbon
 item.yellowcake.name=Yellow Cake
+item.graphite.name=Graphite
+item.leadingot.name=Lead Ingot
+item.uranium238.name=Uranium 238
+item.uranium235.name=Uranium 235
+item.lithium.name=Lithium
+item.lithium6.name=Lithium 6
+item.lithium7.name=Lithium 7
+item.thorium.name=Thorium
+item.beer.name=Beer
+item.wine.name=Wine
+item.wiskey.name=Whiskey
+item.brandy.name=Brandy
+item.champagne.name=Champagne
+item.lithiumrod.name=Lithium Rod
+item.thoriumrod.name=Thorium Rod
+item.thorium233.name=Thorium 233
+item.waste.name=Waste
+item.fuelrod.name=Fuel Rod
+item.mox.name=MOX
+item.uox.name=UOX
+item.depleteduranium.name=Depleted Uranium
+
+
 //Blocks
 tile.iridium_ore.name=Iridium Ore
 tile.barium_ore.name=Barium Ore
@@ -10,4 +33,4 @@ tile.normalmf.name=Normal Machine Frame
 tile.conreactor.name=Condensor
 //Creative Tabs
 itemGroup.netab=Nuclear Electricity
-//Containers
+//Containers 
